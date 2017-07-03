@@ -9,7 +9,9 @@
     *Cration and use of git
         [Git init
          Git add
-         Git commit]
+         Git commit
+         Git log
+         Git status]
 
 ###to resume
 ***Mirar un poco mas sobre linux shell***
