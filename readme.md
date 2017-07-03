@@ -3,28 +3,22 @@
 ##DAY 1
 
 ###the day
-    *Day of preparation, the installation of the tools, initiation to the linux shell
-        [Sobre el cmder, permisos: la primera D significa que es directorio]
+    *Tools installation 
+    *Initiation to cmder
     *Learning Markdown 
-    *Cration and use of git
-        [Git init
-         Git add
-         Git commit
-         Git log
-         Git status]
+    *Cration and use of a repository(GIT)
+        [Git init, Git add, Git commit, Git log, Git status, Git remote]
 
-###to resume
-***Mirar un poco mas sobre linux shell***
+###keep doing
+***more about cmder***
 [Practic]
 [Practic]:https://www.codecademy.com/learn/learn-the-command-line
-*Ya está hecha la sesion 1*
 
-***Mirar mas el git***
+***more about git***
 https://skylabcoders.github.io/bootcamp-julio2017/?full#10
-*source tree, version grafica no recomendable*
 https://dotfiles.github.io/
+*also check the sourcetree, graphical version*
 
-***Install emulator linux-shell***
 
 
 
