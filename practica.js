@@ -16,31 +16,20 @@ function between (num1, num2){
 
 /*Write a function that writes in the console the multiplication table (from 1 to 10)*/
 
-function multiplications (){
-	var table1=[1];
-	var table2=[2];
-	var table3=[3];
-	var table4=[4];
-	var table5=[5];
-	var table6=[6];
-	var table7=[7];
-	var table8=[8];
-	var table9=[9];
-	var table10=[10];
-
-	for(var y=2;y<=10;y++){
-		table1.push(table1[0]*y);
-		table2.push(table2[0]*y);
-		table3.push(table3[0]*y);
-		table4.push(table4[0]*y);
-		table5.push(table5[0]*y);
-		table6.push(table6[0]*y);
-		table7.push(table7[0]*y);
-		table8.push(table8[0]*y);
-		table9.push(table9[0]*y);
-		table10.push(table10[0]*y);
-	}
-	console.log(table1 +'\n'+table2+'\n'+table3+'\n'+table4+'\n'+table5+'\n'+table6+'\n'+table7+'\n'+table8+'\n'+table9+'\n'+table10)
+function multiplicar(){
+    var result = '';
+    for (var i = 1; i <= 10; ++i){
+        for (var j = 1; j <= 10; ++j){
+            result += i*j;
+            if (j < 10) {
+                result += '\t';
+            }
+        }
+        if (i < 10) {
+            result += '\n';
+        }
+    }
+    return result;
 }
 
 /*Write a function that writes in the console the multiplication table (in one column) of any number passed as parameter*/
@@ -101,3 +90,13 @@ function isVowel(character){
 }
 
 /*Writes a function that convert a hexadecimal color, "blue" for example "#0000FF" in its RGB representation rgb(0,0,255)". Give the function the name getRGB() and test it with this code*/
+
+function rgb(color){
+	var red=color.slice(1,3);
+	var green=color.slice(3,5);
+	var blue=color.slice(5,7);
+	var red10=parseInt(red, 16);
+	var green10=parseInt(green, 16);
+	var blue10=parseInt(blue, 16);
+	return 'rgb('+ red10+ ', '+ green10+', '+blue10+')';
+}
