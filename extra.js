@@ -79,9 +79,23 @@ function encodeWord(word){
 }
 
 /*Improve the previous function to add a random number between 0 and 1000 every 7 characters*/
+String.prototype.replaceAll = function(search, replacement) {
+    var word = this;
+    return word.split(search).join(replacement);
+};
 function encodeWord(word){
-		var encoded=word.replace(/t/i, 7).replace(/a/i,4).replace(/s/i,5).replace(/o/i,0);
-		var result=encoded.split('');
-		for(var i=0; i<word.length; i+7){
-			encoded.splice(0,i,Math.random()*10)
-		}
+		var arr=(word.replaceAll(/t/i, 7).replaceAll(/a/i,4).replaceAll(/s/i,5).replaceAll(/o/i,0)).split('');
+		var counter=0;
+		var result=arr.map(function(map){
+			counter++;
+			if(counter%7===0){
+				return map+Math.round(Math.random()*1001);
+				count++;
+			}
+			else{
+				return map;
+			}
+		});		
+		return result.join('');
+}
+encodeWord('hola mundo me llamo santi');

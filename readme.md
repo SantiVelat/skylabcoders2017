@@ -48,7 +48,7 @@ https://dotfiles.github.io/
 *array.length*--->(Is a property)Count the lenght of the array. Is posible to force the array to any concret length(usually used for delete the array content of the memory)  
 *array.concat*---> Used to unify more than one arrays in a new array(the original array still been equal)  
 *array.join(character/s between the content)*---> Used to unify into a string all the content of any array  
-*array.split*--->Used to inverse the join.  
+*array.split(character to extract)*--->is used to split a string into a substrings array if is (''). Also used to extract characters from a string. 
 *array.forEach*--->Used to go on an objects array  
 *array.sort*--->Used to sort the content of an array  
 *array.reverse*--->  
@@ -261,8 +261,8 @@ One example:
             }
   
 #Clousure  
--Is the scopes limit  
--It make possible to acces a information from the deepest function to the father!  
+-Are the scopes limit  
+-Information's accecss from the deepest function to the father is possible, but not from father to son.  
 **example**
 // closures
 
