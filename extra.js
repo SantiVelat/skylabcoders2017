@@ -98,4 +98,15 @@ function encodeWord(word){
 		});		
 		return result.join('');
 }
-encodeWord('hola mundo me llamo santi');
+encodeWord('hola mundo aprendo JavaScript');
+
+  //Other method
+
+function encodeWordPlus (string) {
+	var code = string.replace(/T/gi,7).replace(/A/gi,4).replace(/S/gi,5).replace(/O/gi,0).split('')
+	for (i=7; i<=code.length; i+=7) {
+		code.splice(i, 0, Math.round(Math.random()*1000))
+	}
+	return code.join('')
+}
+

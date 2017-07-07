@@ -286,4 +286,15 @@ One example:
 
 
 -search about webstorm
+-use confirm en consola
+###DAY 5
+
+        -Introducction to test (TDD & TBB)  
+        -
+
+TDD is the testing oriented programming:
+it means that we start over the test, and it drives how we will code the software and how is it's going to act'.
+
+TBB refears to resolv the test independent about the implementation, that means, not be conditionated about susosition and make a test that try the programming independent of his variables.  
+  
 
