@@ -565,4 +565,40 @@ another example:
 -https://css-tricks.com/centering-css-complete-guide/    
 -https://css-tricks.com/snippets/css/a-guide-to-flexbox/ [1]   
 -http://www.sketchingwithcss.com/samplechapter/cheatsheet.html [1]
--https://codepen.io/enxaneta/full/adLPwv
+-https://codepen.io/enxaneta/full/adLPwv  
+  
+
+##DAY 8  
+  
+    -CSS Review  
+    -  
+  
+- *text-overflow*: clip, ellipsis, elipsis-word --> Text overflow can only happen on block or inline-block level elements    
+  
+- *box-shadow*: sets the shadow to any content  
+  
+- *border-radius*: give the round aspect to any object.  
+
+- *opacity*: sets the opacity of any object  
+  
+- *transition*: sets the transition between two opacities  
+  
+- *gradients*: a gradient color  
+  
+- *transform*: rotate, increase or decrease, scale x & y lines...  
+  
+- *translate*: catets and hipotenusa  
+  
+- *trnsform origin*:   
+  
+- *Parallax scrolling*: change elements when scrolling  
+  
+***BOOTSTRAP***  
+  
+        -
+  
+
+
+***Important links***  
+- https://skylabcoders.github.io/bootcamp-julio2017/?full#91
+kotlin, electron
