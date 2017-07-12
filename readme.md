@@ -501,3 +501,68 @@ another example:
 -https://www.w3schools.com/HTML/html5_new_elements.asp  
 -https://schema.org/docs/gs.html     
 -https://threejs.org
+  
+
+###DAY 7  
+  
+        -CSS  
+        -  
+        -  
+        -  
+
+  
+**REGLAS**  
+ -If there are two selectors of the same level, the style is decide about the las attribute declared.  
+ -Allways is stronger the smallest selector than the global one.  
+ - **ID selector** --> is an individial selector, used to give some attribute to any indiviual element. Also connects with JS.  (declared #idselector// id='idselector');
+ - **.class** --> is used to give some attribute to all Elements whit that  
+ - **child selector**--> all elements inside another one (div p{})  
+ - **direct child selector**--> the child next to the father (div > p{})    
+ - **brother selector** --> All the brothers on the same level (h2 ´ p {})  
+ - **Just the first brother**-->The first brother on the level (h2+p{})  
+ - **attribute selector**-->all elements whit the specific attribute (a[attribute])  
+ - **pseudo-classe**--> the different states of the element( a:hover, a:active, a:focus), (input: !enabled, !disabled)  
+ - **first-child, last-child, only-child** --> just the first child, the last child or the only child (div:only-child{})  
+ - **first-of-type, last-of, only-of...**--> the same than childs, but with type(div:only-of-type{})--> in that case, the first div  
+ - **nth-child(3n)**---> the child number nº  
+ - **nth-child(-2n+5)**-->search  
+ - **target pseudo-class**--> select an element that has some element equal to the target url (section[target])  
+ - **div:not(.awasome){}**--->select the element that NO contains this class  
+ - **.class:first-letter, first-line**-->select the first element or line  
+ - **a:after, a:before**--> put some element before or after any element  
+   
+
+**Attributes**  
+- **font-size**-->font-size  
+- **font**-->font type  
+- **font-weight**--> bold  
+- **font-variant**-->   
+- **line-height**--> Height between lines  
+  
+**Box-sizing**  
+- **border-box** --> the border and the padding are included in the element  
+- **Keep searching  
+- **inherit** --> absorbs the properties from the father  
+- **initial** --> reset the properties to the default value 
+  
+
+**Flexbox**  [1]
+- Used to display a direction of a "line-block"  
+- felx-wrap --> \n automatic.    
+  
+**Responsive**  
+--*mediaQuery*--  
+-Use the CSS for all mediaa and smaller than :: media="all and (max-width: 1024px)"  
+- or change some part of the css :: @media all and (max-width: 1024px){}  
+- or import css from another style --> @import url(style.css) all and (max-width: 1024px){}  
+- by orientation --> @media all and (orientation: portrait){}  
+- by ratio hight and width --> @media all and (min-device-aspect-ratio: 16/9){}
+
+***Important links***  
+-http://learn.shayhowe.com/html-css/buil    ding-your-first-web-page/    
+-https://color.adobe.com/es/  
+-https://skylabcoders.github.io/bootcamp-julio2017/?full#83  
+-https://css-tricks.com/centering-css-complete-guide/    
+-https://css-tricks.com/snippets/css/a-guide-to-flexbox/ [1]   
+-http://www.sketchingwithcss.com/samplechapter/cheatsheet.html [1]
+-https://codepen.io/enxaneta/full/adLPwv
