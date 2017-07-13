@@ -586,7 +586,7 @@ another example:
 - *gradients*: a gradient color  
   
 - *transform*: rotate, increase or decrease, scale x & y lines...  
-  
+
 - *translate*: catets and hipotenusa  
   
 - *trnsform origin*:   
@@ -602,3 +602,12 @@ another example:
 ***Important links***  
 - https://skylabcoders.github.io/bootcamp-julio2017/?full#91
 kotlin, electron
+
+##DAY 9  
+
+        -CSS Review  
+        -  
+
+**BOOTSTRAP**  
+- Bootstrap divide the screen in 12 columns  
+    +   
