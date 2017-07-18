@@ -609,5 +609,103 @@ kotlin, electron
         -  
 
 **BOOTSTRAP**  
-- Bootstrap divide the screen in 12 columns  
-    +   
+- Bootstrap divide the screen in 12 columns    
+  
+  
+##DAY 10    
+  
+    -Sass es una herramienta capaz de agiliar el trabajo de producción en web  
+    -Es un programa command line
+            - input.scss output.css  
+            -sass --watch app/... para vincular sass con un fichero.   
+    -Posible to save the sass whitin more than one doc named "partials"  
+    -**@mixin**--> simplify diferent elements inside one declaration  
+            - @mixin border-radius($radius){
+                -webkit-border-radius: $radius;  
+                -moz-border-radius: $radius;  
+                    border-radius: $radius;
+            }     
+            .box {@include border-radius(10px);}    
+    -**extend/inherence** --> use the same attributes from any element for any one  
+            -  .firstClass{  
+                border: ---  
+                padding:---}  
+                .secondClass{
+                    @extend .firstClass  
+                    color: ---
+                }      
+    -**operators** --> It makes possible to operate inside any css whitout use calc  
+    -
+**Example**  
+        -$font-stack: Helvetica --> give an attribute to any variable 
+            - body{ font: 100% $font-stack} --> using the variable  
+  
+  
+##DAY 11   
+  
+    -DOM ---> Document Object Model  (Tree of Nodes)
+    -BOM ---> Browser Objet Model  
+  
+window.location.href="redirects the navigator"  
+window.history --> functions using the history  
+alert ---> Alert message  
+prompt ---> Take text from the user  
+confirm ---> request confirmation to the user  
+  
+innerHTML---> manipulate the content inside a tag  
+getElementbyId() ---> return the element whit the ID passed as a parameter
+createElement ---> Create some object inside the document  
+map.style---> access to any element's style.
+fast access---> .body, .images, .applets, .links, .anchors, .forms
+.write ---> nor apropiated for common use  
+search about cookies manipulation  
+search about query selectors  
+  
+-jQuery, enable the fast accces and easy manipulate of document elements  
+    -Core: es the nucle  
+    -to call a function $()---> inside shuould go any id or class...  
+    -methods:  
+            -html(), text(), attr(), .widht(),.position(),value()
+    "$(#myDiv p:first)").html("New <strong>first</strong> paragraph!")  
+
+.get ---> over an array is used to take a native array from a jquery array
+
+-http://learn.jquery.com/using-jquery-core/iterating/    
+  
+##DAY 12  
+  
+    -More about jQuery  
+
+-when u call the argument in a function, it references the event. So it enable the use of the propertyes of that one.;  
+    $(selector).method(function(e){
+    var variable = e.targetID;
+    })
+
+***AJAX***  
+  
+    - JSON allways is plane text   
+    - Websites has their own API's and may has more than one for diferent uses.    
+    -SOP --> same origin policy  
+
+
+*AN EXAMPLE OF A NATIVE JS REQUEST*  
+ 
+        <script type="text/javascript">
+    var url = 'http://data.colorado.gov/resource/4ykn-tg5h.json?entitystatus=Good%20Standing&principalzipcode=80001';
+    var xhr=new XMLHttpRequest();
+    xhr.onload = function() {
+        console.log('Request OK');
+    };
+    xhr.onerror =function(){
+        console.log('Request error');
+    };
+    xhr.open('GET', url, true);
+    xhr.send();  
+        </script>
+
+        
+investigar metodos jquery como toggleClass, fadein
+  
+
+http://json.org/
+  
